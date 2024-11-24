@@ -1,0 +1,36 @@
+*   {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "RobotoCondensed";
+  src: local("RobotoCondensed"), url("fonts2/RobotoCondensed-BlackItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: "RobotoCondensed";
+  src: local("RobotoCondensed"), url("fonts2/RobotoCondensed-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: "RobotoCondensed";
+  src: local("RobotoCondensed"), url("fonts2/RobotoCondensed-Bold.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+
+/* .sdct{
+border-radius: 50%;
+} */
+
+body {
+  font-family:"RobotoCondensed",serif;
+  background-color: #1A0134;
+  margin: 0;
+  padding: 0; 
+}
+
